@@ -1,0 +1,29 @@
+manage.py ==>
+A command-line utility that lets you interact with this Django project in various ways.
+like django-admin
+
+init ==> tells python it is to be treated like a package
+
+settings ==> settings for website.. the main hub.. every time add an app then manually add in installed app in settings.py
+
+urls ==> main controller...url patterns..regex.. 
+^ = beggining of string
+$ = end of string
+
+wsgi ==> A Web Server Gateway Interface (WSGI) server implements the web server side of the WSGI interface for running Python web applications.
+
+==================================
+
+(mvc -> models,views,urls.py=controller)
+In webapp
+
+init ==> so its treated as its own app
+admin ==> admin stuff
+apps ==> name of app..
+models ==> DB info and meta data
+tests ==> code that run through testing the code.. every time you run ur project
+view ==> what end user winds up seeing
+
+urls.py==> Basically here Routing is done like @app.route.... and the functions are present in views
+
+** if database needs then need to migrate

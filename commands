@@ -1,0 +1,27 @@
+pip3 install django
+
+django-admin startproject mysite // mysite is name of project
+
+cd mysite
+
+python3 manage.py runserver
+
+localhost:8000 ==> development server
+
+python3 manage.py startapp webapp // webapp is name of app
+
+in settings > installed apps add 'webapp'
+
+# after models
+## if only admin
+python3 manage.py migrate
+
+## if models in app
+python3 manage.py makemigrations 
+python3 manage.py migrate
+
+
+python3 manage.py createsuperuser
+
+
+#register models in admin.py

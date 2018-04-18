@@ -1,0 +1,18 @@
+run migrations when you have model
+
+2 major migrations
+
+models.py
+admin
+
+
+3 major steps
+
+# migrations of apps inside
+python3 manage.py makemigrations 
+
+# for specific app 'blog'
+python3 manage.py makemigrations blog
+
+#to see what sql would be run 
+python3 manage.py sqlmigrate blog 0001
